@@ -1,0 +1,18 @@
+package demo;
+
+import java.util.Scanner;
+
+public class max_3 {
+	public static void main(String[] args) {
+		double a, b, c;
+		System.out.println("input three numbers:");
+		Scanner scanner= new Scanner(System.in);
+		a = scanner.nextDouble();
+		b = scanner.nextDouble();
+		c = scanner.nextDouble();
+		double max = a > b? a: b;
+		max = max > c? max: c;
+		System.out.print("the max of them: " + max);
+		// print不换行
+	}
+}

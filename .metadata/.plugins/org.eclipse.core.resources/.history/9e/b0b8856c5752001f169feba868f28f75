@@ -1,0 +1,13 @@
+package demo;
+
+public class String_opera {
+	public static void main(String[] args) {
+		char ch = (int) 65.35; 
+		System.out.println(ch);
+		ch = (char)0xAB0041;  // The lower 16 bits hex code 
+		System.out.println(ch);
+		
+		byte b = 'a';
+		System.out.println(b);
+	}
+}

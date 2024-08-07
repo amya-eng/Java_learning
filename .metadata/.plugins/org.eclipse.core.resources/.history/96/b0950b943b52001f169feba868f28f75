@@ -1,0 +1,19 @@
+package demo;
+
+import java.util.Scanner;
+
+public class Area {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius;
+		double area;
+		System.out.println("Input the value of radius: ");
+		Scanner input=new Scanner(System.in);
+		radius = input.nextDouble();
+		area = 3.14 * radius * radius;
+		System.out.println(radius + " equals to " + area);
+
+	}
+
+}

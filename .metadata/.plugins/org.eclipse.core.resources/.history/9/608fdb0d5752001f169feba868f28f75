@@ -1,0 +1,8 @@
+package demo;
+
+public class String_opera {
+	public static void main(String[] args) {
+		char ch = (int) 65.35;
+		System.out.println(ch);
+	}
+}

@@ -1,0 +1,25 @@
+package demo;
+
+public class String_opera {
+	public static void main(String[] args) {
+		char ch = (int) 65.35; 
+		System.out.println(ch);
+		ch = (char)0xAB0041;  // The lower 16 bits hex code 
+		System.out.println(ch);
+		
+		byte b = 'a';    // although 'a' is a char, but 97 is lower then 127
+		System.out.println(b);
+		
+		int n = 'a';
+		System.out.println(n);
+		
+		n = (int)2 + 'a';
+		System.out.println(n);
+		
+		System.out.println(Character.isDigit(n));
+		System.out.println(Character.isLetter(ch));
+		System.out.println(Character.isLowerCase(ch));
+		System.out.println(Character.isUpperCase(Character.toUpperCase(ch)));
+		System.out.println(Character.toUpperCase(ch));
+	}
+}

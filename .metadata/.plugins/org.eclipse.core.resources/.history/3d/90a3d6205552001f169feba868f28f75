@@ -1,0 +1,11 @@
+package demo;
+
+public class MathFunction {
+	public static void main(String[] args) {
+		System.out.println(Math.sin(Math.toRadians(270)));
+		System.out.println(Math.toRadians(270));
+		System.out.println(Math.PI / 6);
+		System.out.println(Math.asin(0.5));
+		System.out.println(Math.atan(360));
+	}
+}

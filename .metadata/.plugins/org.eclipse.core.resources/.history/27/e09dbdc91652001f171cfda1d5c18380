@@ -1,0 +1,17 @@
+package demo;
+
+public class ComputeArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius;
+		double area;
+		
+		radius = 20;
+		area = 3.14 * radius * radius;
+		System.out.println("the area of " + radius + " is " + area);
+		
+		
+	}
+
+}
